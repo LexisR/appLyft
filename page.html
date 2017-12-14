@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link type="text/css" rel="stylesheet" href="assets/css/materialize.min.css"  media="screen,projection"/>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/page.css">
+  <title>Document</title>
+</head>
+<body>
+  <div class="row hide-on-large-only">
+    <div class="col s12 m12 l12"  id="small-logo">
+      <img src="assets/img/logo-pink.png" id="image-1">
+    </div>
+    <div class="row">
+      <button class="btn waves-effect waves-light btn-1" type="submit" name="action">LOG IN</button>
+      <button class="btn waves-effect waves-light btn-1 waves-effect waves-light btn modal-trigger" href="#modal1" type="submit" name="action">SING UP</button>
+    </div>
+  </div>
+  <div class="row hide-on-small-only">
+    <div class="col s12 m12 l12" id="big-logo">
+      <img src="assets/img/logo-pink.png" id="image-2">
+    </div>
+    <div class="row">
+     <button class="btn waves-effect waves-light btn-2" type="submit" name="action">LOG IN</button>
+      <button class="btn waves-effect waves-light btn modal-trigger btn-2" href="#modal1" type="submit" name="action">SING UP</button>
+    </div>
+  </div>
+  <div id="modal1" class="modal">
+    <div class="modal-content">
+      <i href="#!" class="modal-action modal-close waves-effect waves-green btn-flat waves-effect material-icons" id="arrow">arrow_back</i>
+      <div class="input-field col s6">
+        <input value="Join now for free ride credit" id="first_name2" type="text" class="validate">
+        <label class="active" for="first_name2"></label>
+      </div>
+      <div class="row">
+        <div class="input-field col s12 m6">
+          <select class="icons">
+            <option value="" disabled selected>Choose your conutry</option>
+            <option value="" class="circle">Alemania</option>
+            <option value="" class="circle">Boliviia</option>
+            <option value="" class="circle">China</option>
+            <option value="" class="circle">Chile</option>
+            <option value="" class="circle">Dinamarca</option>
+            <option value="" class="circle">España<option>
+            <option value="" class="circle">Francia</option>
+            <option value="" class="circle">Peru</option>
+            <option value="" class="circle">USA</option>
+            <option value="" class="circle">Venezuela</option>
+          </select>
+          <label>Images in select</label>
+        </div>
+      </div>
+      <div class="row">
+        <form class="col s12">
+          <div class="row">
+            <div class="input-field col s6">
+              <i class="material-icons prefix" id="phone">phone</i>
+              <input id="icon_telephone" type="tel" class="validate">
+              <label for="icon_telephone">Telephone</label>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+    <a class="waves-effect waves-light btn" id="btn-3">Get code</a>
+    <button class="btn waves-effect waves-light btn modal-trigger" href="#modal2" type="submit" name="action"id="btn-4">Continue</button>
+  </div>
+  <div id="modal2" class="modal">
+    <div class="modal-content">
+      <i href="#!" class="modal-action modal-close waves-effect waves-green btn-flat waves-effect material-icons" id="arrow">arrow_back</i>
+      <div>
+        <h5>Verify phone number</h5>
+      </div>
+      <div class="input-field col s6">
+        <input value="Join now for free ride credit" id="first_name2" type="text" class="validate">
+        <label class="active" for="first_name2"></label>
+      </div>
+    </div>
+    <div class="row">
+      <form class="col s12">
+        <div class="row">
+          <div class="input-field col s6">
+            <input id="icon_telephone" type="tel" class="validate">
+            <label for="icon_telephone">Enter the code sent to +56 9</label>
+          </div>
+        </div>
+      </form>
+    </div>
+    <a class="waves-effect waves-light btn" id="btn-3-1">Another code</a>
+    <div>
+      <button class="btn waves-effect waves-light waves-effect waves-light btn modal-trigger" href="#modal3" type="submit" name="action"id="btn-5">Continue</button>
+    </div>
+  </div>
+  <div id="modal3" class="modal">
+    <div class="modal-content">
+      <i href="#!" class="modal-action modal-close waves-effect waves-green btn-flat waves-effect material-icons" id="arrow">arrow_back</i>
+      <div>
+        <h5>Sign Up</h5>
+      </div>
+      <div class="input-field col s6">
+        <input value="Join now for free ride credit" id="first_name2" type="text" class="validate">
+        <label class="active" for="first_name2"></label>
+      </div>
+    </div>
+    <div class="row">
+      <form class="col s12">
+        <div class="row">
+          <div class="input-field col s6">
+            <i class="material-icons prefix" id="account_circle">account_circle</i>
+            <input id="icon_prefix" type="text" class="validate">
+            <label for="icon_prefix">Full Name</label>
+          </div>
+          <div class="input-field col s6">
+            <i class="material-icons prefix" id="email">email</i>
+            <input id="icon_telephone" type="tel" class="validate">
+            <label for="icon_telephone">Mail</label>
+          </div>
+        </div>
+      </form>
+    </div>
+    <form action="#">
+      <p>
+        <input type="checkbox" id="test5"/>
+        <label for="test5" id="test-5">I agre to Lyft´ss Terms of Service</label>
+      </p>
+    </form>     
+    <div>
+      <button class="btn waves-effect waves-light waves-effect waves-light btn modal-trigger" href="#modal4" type="submit" name="action"id="btn-5">Continue</button>
+    </div>
+  </div>
+  <div id="modal4" class="modal">
+    <div class="modal-content">
+      <div>
+        <i href="#!" class="modal-action modal-close waves-effect waves-green btn-flat waves-effect material-icons" id="arrow">arrow_back</i>
+      </div>
+      <div>
+        <h1 id="final-text">WELCOME</h1>
+      </div>
+      <div>
+        <button class="btn waves-effect waves-light waves-effect waves-light btn modal-trigger" href="#modal3" type="submit" name="action"id="btn-5">Enjoy</button>
+      </div>
+    </div>
+
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script type="text/javascript" src="assets/js/materialize.min.js"></script>
+  <script src="assets/js/app.js"></script>
+</body>
+</html>

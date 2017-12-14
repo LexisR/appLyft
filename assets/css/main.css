@@ -1,0 +1,17 @@
+body {
+  background: linear-gradient(to bottom, #530060,#FF00BF);
+  height: 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.logo-white {
+  height: 10%;
+  width: 20%;
+}
+
+.row {
+  text-align: -webkit-center;
+  margin-top: 15em;
+}
+
